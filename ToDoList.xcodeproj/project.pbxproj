@@ -19,6 +19,10 @@
 		1FB23FF218A312FF009F4242 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB23FDA18A312FF009F4242 /* UIKit.framework */; };
 		1FB23FFA18A312FF009F4242 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FB23FF818A312FF009F4242 /* InfoPlist.strings */; };
 		1FB23FFC18A312FF009F4242 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB23FFB18A312FF009F4242 /* ToDoListTests.m */; };
+		1FB2400618A3211A009F4242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB2400518A3211A009F4242 /* Main.storyboard */; };
+		1FB2400918A370E0009F4242 /* XYZAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB2400818A370E0009F4242 /* XYZAddToDoItemViewController.m */; };
+		1FB2400C18A371D1009F4242 /* XYZToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB2400B18A371D1009F4242 /* XYZToDoListViewController.m */; };
+		1FB2400F18A3FF34009F4242 /* XYZToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB2400E18A3FF34009F4242 /* XYZToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		1FB23FF718A312FF009F4242 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		1FB23FF918A312FF009F4242 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FB23FFB18A312FF009F4242 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		1FB2400518A3211A009F4242 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1FB2400718A370E0009F4242 /* XYZAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZAddToDoItemViewController.h; sourceTree = "<group>"; };
+		1FB2400818A370E0009F4242 /* XYZAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZAddToDoItemViewController.m; sourceTree = "<group>"; };
+		1FB2400A18A371D1009F4242 /* XYZToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoListViewController.h; sourceTree = "<group>"; };
+		1FB2400B18A371D1009F4242 /* XYZToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoListViewController.m; sourceTree = "<group>"; };
+		1FB2400D18A3FF34009F4242 /* XYZToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoItem.h; sourceTree = "<group>"; };
+		1FB2400E18A3FF34009F4242 /* XYZToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +120,13 @@
 			children = (
 				1FB23FE518A312FF009F4242 /* XYZAppDelegate.h */,
 				1FB23FE618A312FF009F4242 /* XYZAppDelegate.m */,
+				1FB2400518A3211A009F4242 /* Main.storyboard */,
+				1FB2400D18A3FF34009F4242 /* XYZToDoItem.h */,
+				1FB2400E18A3FF34009F4242 /* XYZToDoItem.m */,
+				1FB2400A18A371D1009F4242 /* XYZToDoListViewController.h */,
+				1FB2400B18A371D1009F4242 /* XYZToDoListViewController.m */,
+				1FB2400718A370E0009F4242 /* XYZAddToDoItemViewController.h */,
+				1FB2400818A370E0009F4242 /* XYZAddToDoItemViewController.m */,
 				1FB23FE818A312FF009F4242 /* Images.xcassets */,
 				1FB23FDD18A312FF009F4242 /* Supporting Files */,
 			);
@@ -220,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB2400618A3211A009F4242 /* Main.storyboard in Resources */,
 				1FB23FE118A312FF009F4242 /* InfoPlist.strings in Resources */,
 				1FB23FE918A312FF009F4242 /* Images.xcassets in Resources */,
 			);
@@ -241,7 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FB23FE718A312FF009F4242 /* XYZAppDelegate.m in Sources */,
+				1FB2400F18A3FF34009F4242 /* XYZToDoItem.m in Sources */,
 				1FB23FE318A312FF009F4242 /* main.m in Sources */,
+				1FB2400C18A371D1009F4242 /* XYZToDoListViewController.m in Sources */,
+				1FB2400918A370E0009F4242 /* XYZAddToDoItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
