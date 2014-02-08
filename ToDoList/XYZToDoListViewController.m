@@ -53,6 +53,10 @@
     XYZToDoItem *item3 = [[XYZToDoItem alloc]init];
     item3.itemName = @"Test 3";
     [self.toDoItems addObject:item3];
+    
+    XYZToDoItem *item4 = [[XYZToDoItem alloc]init];
+    item4.itemName = @"New Item";
+    [self.toDoItems addObject:item4];
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
